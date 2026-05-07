@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML datasets & large files
+ML-Classification/asl-alphabet.zip
+ML-Classification/asl_alphabet_train/
+ML-Classification/asl_alphabet_test/
+ML-Classification/my_dataset/
+ML-Classification/ASL-HG*/
+ML-Classification/asl_landmarks_modern.csv
+ML-Classification/asl_landmarks_sequences.npz
+ML-Classification/hand_landmarker.task
+
+# Old/intermediate model checkpoints (keep final landmark models)
+ML-Classification/asl_model.h5
+ML-Classification/best_model_phase1.h5
+ML-Classification/best_model_phase2.h5
+
+# Node
+node_modules/
+package-lock.json
+
+# PlatformIO
+515-Individual/.pio/
+515-Individual/.pioenvs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+asdf.txt
